@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.ProfilePic {
+display: block;
+width: 350px;
+
+
+}
+.over {
+  position:absolute;
+  width: 350px;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right:0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
+}
+.container:hover .over {
+  opacity:1;
+}
+
+.text {
+  color:white;
+  font-size: 20px;
+  position: absolute;
+  top:30%;
+  left:130px;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+
+
+}
+h5 {
+  color: burlywood;
+}
+p {
+  text-align: justify;
+  width: 20%;
+}
